@@ -1,0 +1,17 @@
+# Secrets
+.env
+service_account.json
+eri-ai-discord-bot-*.json
+
+# Bot data (announced-birthday tracking)
+c4k3.db
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Editors
+.idea/
+.vscode/
