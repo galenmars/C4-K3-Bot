@@ -83,7 +83,7 @@ class BirthdayCog(commands.Cog):
         try:
             records = await asyncio.to_thread(self._read_sheet)
         except Exception as e:
-            print(f"C4-K3: could not read the Sheet, keeping last copy ({e})")
+            print(f"C4-K3: could not read the Sheet, keeping last copy ({e!r})")
             return False
 
         rows, warnings = [], []
